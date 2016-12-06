@@ -6,7 +6,7 @@ name := "trackedfuture"
 //version := "0.1"
 
 libraryDependencies += "org.ow2.asm" % "asm" % "5.1"
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
 assemblyShadeRules in assembly := Seq(

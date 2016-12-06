@@ -1,10 +1,10 @@
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.0"
 
 name := "trackedfuture-example"
 version := "0.3"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 
 fork := true
 //javaOptions += s"-javaagent:../agent/target/scala-2.11/trackedfuture_2.11-${version.value}.jar"

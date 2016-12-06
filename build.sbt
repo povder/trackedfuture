@@ -2,7 +2,7 @@
 lazy val commonSettings = Seq(
   version := "0.3",
   organization := "com.github.rssh",
-  scalaVersion := "2.11.8"
+  scalaVersion := "2.12.1"
 )
 
 
